@@ -15,7 +15,13 @@ const routes =  [
     path: "/add",
     name: "add-explorer",
     component: () => import("./components/AddExplorer")
+  },
+  {
+    path: "/misioncomanders",
+    name: "misioncomanders",
+    component: () => import("./components/misioncomanderslist.vue")
   }
+  
 ];
 const router = createRouter({
   history: createWebHistory(),
