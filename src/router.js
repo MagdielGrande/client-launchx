@@ -20,12 +20,17 @@ const routes =  [
   {
     path: "/misioncomanders",
     name: "misioncomanders",
-    component: () => import("./components/misioncomanderslist.vue")
+    component: () => import("./components/misioncomanderslist")
   },
   {
     path: "/addmc",
     name: "add-misioncomander",
     component: () => import("./components/AddMisionComander")
+  },
+  {
+    path: "/misioncomanders/:id",
+    name: "misioncomanders-details",
+    component: () => import("./components/MissionComander")
   }
   
 ];
