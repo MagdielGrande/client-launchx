@@ -16,10 +16,16 @@ const routes =  [
     name: "add-explorer",
     component: () => import("./components/AddExplorer")
   },
+  //New feature
   {
     path: "/misioncomanders",
     name: "misioncomanders",
     component: () => import("./components/misioncomanderslist.vue")
+  },
+  {
+    path: "/addmc",
+    name: "add-misioncomander",
+    component: () => import("./components/AddMisionComander")
   }
   
 ];
