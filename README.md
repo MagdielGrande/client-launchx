@@ -20,5 +20,11 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Ejecuta
+
+1. Run the project 
+```npm run serve```
+
+2. Go to ```http://localhost:8081/```
+
+There you can create, read, update and delete. 
